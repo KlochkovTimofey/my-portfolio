@@ -1,0 +1,47 @@
+.first-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.name-container {
+    width: 90%;
+    text-align: center;
+}
+
+.name-container__base {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 30px solid var(--color-red);
+    box-shadow: 0 0 31px var(--color-red);
+    border-radius: 100%;
+    font-size: 3.5rem;
+    
+}
+
+.name-container__base h1 {
+    font-weight: 400;
+    color: var(--color-red);
+}
+
+.first-screen__menu {
+    text-align: end;
+    writing-mode: vertical-rl;
+    color: var(--text-color);
+    font-weight: 700;
+    margin: 1.5rem;
+    
+}
+
+.menu__links {
+
+}
+
+.links__item {
+    margin: 2rem;
+}

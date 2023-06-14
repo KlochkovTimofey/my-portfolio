@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.header__logo {
+    margin: 1rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__images {
+    width: 3rem;
+}
+
+.header__links {
+    margin: 0 0.5rem;
+}
+
+.img-header {
+    width: 100%;
+}
+
+.link-header {
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--color-red);
+}
+ 
+.link-header:hover {
+    color: #990000cc;
+}

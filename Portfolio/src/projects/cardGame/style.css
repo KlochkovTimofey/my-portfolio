@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to left, #7EFFDB, #B693FE);
+    font-family: 'Exo 2', sans-serif;
+
+}
+.game {
+    width: 50%;
+    height: 600px;
+    margin: 9% auto 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.card {
+    width: 23%;
+    height: 32%;
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: all .5s;  
+}
+.card:active {
+    transform: scale(0.97);
+    transition: all .2s;
+}
+.card.flip {
+    transform: rotateY(180deg)
+}
+.frontFace, .backFace {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 8px;
+    background: #8C82FC;
+    backface-visibility: hidden;
+}
+.frontFace {
+    transform: rotateY(180deg);
+}
+.buttons {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.button2 {
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #8C82FC;
+    color: rgb(39, 255, 255);   
+    font-size: 16px;
+    display: inline-block;
+
+} 
+.al {
+    display: none;
+    position: fixed;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+    font-size: 140px;
+    color: #4339b4;
+}
+.win {
+    display: none;
+    position: fixed;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+    font-size: 100px;
+    color: rgb(39, 175, 130);
+}
+#att {
+    color: rgb(39, 255, 255);
+    width: 50px;
+    height: 50px;
+    
+}
+p {
+    text-align: center;
+}
+
+.attempts {
+    margin: 1.5rem auto;
+    width: 100%;
+    font-size: 27px;
+}

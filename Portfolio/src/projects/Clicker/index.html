@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Игра кликер</title>
+</head>
+<body>
+    <div class="goToPortfolio" style="padding: 30px 15px;">
+        <a href="../../../index.html" title="Вернуться назад" class="goToPortfolio__link" style="text-decoration: none; color: #151515; font-weight: 600; font-size: 20px;">← Назад</a>
+    </div>
+
+    <p>Количество монеток: <span class="coin">0</span></p>
+    <button class="button">Нажми сюда</button>
+    <p>Количество бонусов: <span class="bonus">0</span></p>
+    <button class="button2">Получить бонус</button>
+    <h1>Магазин</h1>
+    <div class="shop">
+        
+        <div class="element">
+            <p class="p">Бонус x3</p>
+            <p>Стоимость: 50000 монет</p>
+            <button class="button3">Купить</button>
+        </div>
+
+        <div class="element">
+            <p class="p2">Игра лотерея. Цена билета 1000 монет</p>
+            <input class="ticket" placeholder="Введите число от 1 до 100">
+            <p class="win_ticket"></p>
+            <button class="button4">Получить</button>
+            
+        </div> 
+
+        <div class="element">
+            <p class="p3">Бонус х5</p>
+            <p>Стоимость: 100000 монет</p>
+            <button class="button5">Купить</button>
+        </div>
+
+        <div class="element">
+            <p class="p3">Супербонус х10</p>
+            <p>Стоимость: 1000000 монет</p>
+            <button class="button6">Купить</button>
+        </div>
+    
+    </div>
+    <div class="shop">
+        
+        <div class="element">
+            <p class="p">Завод + 1 уровень</p>
+            <p>Стоимость: 10000 монет</p>
+            <button class="buyfactory">Купить</button>
+        </div>
+
+        <div class="element">
+            <p class="p2">Школа + 1 уровень</p>
+            <p>Стоимость: 15000</p>
+            <button class="buyschool">Купить</button>
+        </div>
+
+        <div class="element">
+            <p class="p3">Больница + 1 уровень</p>
+            <p>Стоимость: 20000 монет</p>
+            <button class="buyhospital">Купить</button>
+        </div>
+
+        <div class="element">
+            <p class="p3">Полиция + 1 уровень</p>
+            <p>Стоимость: 25000 монет</p>
+            <button class="buypolice">Купить</button>
+        </div>
+    
+    </div>
+    <div class="game">
+        <div class="city">
+            <div class="inf">
+                <p>Заводы: <span class="factory">0</span></p>
+                <p>Школы: <span class="school">0</span></p>
+                <p>Больницы: <span class="hospital">0</span></p>
+                <p>Полиция: <span class="police">0</span></p>
+                
+            </div>
+
+
+
+        </div>
+        <div class="people">
+            <div class="inf">
+                <p>Кол-во людей: <span class="peoples">0</span></p>
+                <p>Уровень города: <span class="citylevels">0</span></p>
+                <p>Средняя зарплата населения: <span class="salarys">0</span></p>
+                
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Когда покупаешь "бонус x5", выходит алерт с надписью "Успешно куплено". И действие этого бонуса будет влиять на получение монеток. -->
+<!-- "+500 монеток" - это бонус который будет даваться за определенное время (24 часа) -->
+<!-- Сделать магазин в три столбика -->
