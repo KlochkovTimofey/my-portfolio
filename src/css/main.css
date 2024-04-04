@@ -1,0 +1,51 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main__projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.order-left {
+    order: -1;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.order-left {
+    order: -1;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.projects__image {
+    width: 50%;
+    
+}
+
+.projects-img {
+    width: 100%;
+}
+
+.projects__title {
+    width: 50%;
+    padding-left: 25px;
+
+}
+
+.projects__title h2 {
+    font-weight: 600;
+}
+
+.projects__title p {
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.projects-link {
+    color: var(--color-red);
+}

@@ -1,0 +1,95 @@
+@media screen and (max-width: 1300px) {
+    :root {
+        font-size: 16px;
+    }
+
+    .support {
+        width: 80%;
+        text-align: center;
+        
+    }
+    
+    .support__form {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+    :root {
+        font-size: 15px;
+        
+    }
+
+    .projects__image {
+        width: 100%;
+    }
+
+    .projects__title {
+        width: 100%;
+    }
+
+    .partners {
+        width: 90%;
+    }
+
+    .support {
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    
+
+    .footer {
+        width: 90%;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        font-size: 12px;
+        
+    }
+
+    .footer-image {
+        display: none;
+    }
+
+    .partners__brands {
+        grid-template-columns: repeat(2, 100px);
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .name-container__base {
+        font-size: 3rem;
+        width: 30rem;
+        height: 30rem;
+    }
+
+
+    .main__projects {
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+
+    .order-left {
+        padding: 0;
+        order: 0;
+    }
+
+    
+}

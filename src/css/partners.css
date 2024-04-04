@@ -1,0 +1,32 @@
+.partners {
+    width: 65%;
+    margin: 5rem auto;
+}
+
+.partners__title {
+    text-align: left;
+}
+
+.partners-item {
+    color: #FF0000;
+}
+
+.partners__brands {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    
+}
+
+.brand {
+    width: 100px;
+    box-sizing: border-box;
+    
+}
+
+.brand__item {
+    width: 100%;
+
+}

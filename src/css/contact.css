@@ -1,0 +1,30 @@
+.contact {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .contact__links {
+    
+}
+
+.social-media {
+    
+} */
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.6rem;
+    color: black;
+}
+
+/* .social-media img:hover {
+    
+}
+
+.contact__info {
+
+} */
